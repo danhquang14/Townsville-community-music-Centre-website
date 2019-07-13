@@ -1,0 +1,533 @@
+@charset "utf-8";
+	/* Huy's (start)*/
+body {
+	margin: 0px;
+	background-color: #000000;
+}
+
+#fixed_header {
+	width: 100%;
+}
+
+.banner img {
+	
+	top: 0em;
+	left: 0em;
+	height: 5.5em;
+	width: 100%;
+	z-index: -1;
+}
+
+.logo img {
+	position: absolute;
+	top: 0.5em;
+	left: 0.5em;
+	z-index: 9999;
+}
+
+#content{
+	position:relative;
+	top:1em;
+	left:1em;
+}
+#sponsors{
+	position:absolute;
+	left:20em;
+	right:1em;
+
+}
+.content1 {
+	margin: 10px;
+	padding: 1em;
+	text-align: center;
+	background-color: #ECECEC;
+	border-radius: 1em;
+	box-shadow: -5px 5px 5px #666;
+	-moz-box-shadow: -5px 5px 5px #666;
+	-webkit-box-shadow: -5px 5px 5px #666;
+}
+
+.content2 {
+	margin: 10px;
+	padding: 2em;
+	background-color: #ECECEC;
+	border-radius: 1em;
+	box-shadow: -5px 5px 5px #666;
+	-moz-box-shadow: -5px 5px 5px #666;
+	-webkit-box-shadow: -5px 5px 5px #666;
+}
+
+.content2 img {
+	padding: 0 1em 0 1em;
+	float: left;
+	
+}
+.content3{
+	margin: 10px;
+	padding: 4em;
+	text-align: right;
+	background-color: #ECECEC;
+	border-radius: 1em;
+	box-shadow: -5px 5px 5px #666;
+	-moz-box-shadow: -5px 5px 5px #666;
+	-webkit-box-shadow: -5px 5px 5px #666;
+}
+.content3 img {
+	float: right;
+	
+}
+.promotion{
+	margin: 10px;
+	text-align: center;
+	padding: 2em;
+	background-color: #ECECEC;
+	border-radius: 1em;
+	box-shadow: -5px 5px 5px #666;
+	-moz-box-shadow: -5px 5px 5px #666;
+	-webkit-box-shadow: -5px 5px 5px #666;
+}
+.promotion button p {
+	padding: 0em;
+}
+.promotion button a {
+	text-decoration: none;
+	color: #000;
+}
+/**Huy (end)**/
+/**Khai (start)**/
+.mainbar {
+	margin: 0px 0px 0px 500px;
+	padding: 0px;
+	width: 670px;
+}
+
+.mainbar img {
+	padding: 4px;
+	border: 1px solid #b7b7b7;
+	background-color: #FFFFFF;
+}
+
+.mainbar img.fl {
+	margin: 4px 16px 4px 0px;
+	float: top;
+}
+
+.mainbar .article {
+	margin: 0px;
+	padding: 16px 24px 24px 40px;
+}
+
+.article span {
+	color: #FFFFFF;
+	text-align: center;
+}
+
+.mainbar .post-data a {
+	color: #595959;
+}
+
+.mainbar .post-data a.com {
+	float: right;
+	color: #E58A42;
+}
+
+.mainbar .spec a {
+	background: #E58A42;
+	padding: 10px;
+}
+
+.article p, h1, h2, h3 {
+	color: #FFFFFF;
+}
+/**khai (end)**/
+/**Ye Yint Thet Khine(Start)**/
+.sidebar {
+	margin: 0px;
+    float: left;
+	padding: 0px;
+	width: 300px;
+	background: #270202;
+	height: 100%;
+}
+
+.sidebar .gadget {
+	margin: 0px;
+	padding: 20px 16px 20px 30px;
+}
+
+.sidebar h2 {
+	color: #D76002;
+}
+
+ul.sb_menu, ul.ex_menu {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+	color: #959595;
+}
+
+ul.sb_menu li, ul.ex_menu li {
+	margin: 0px;
+}
+ul.sb_menu li {
+	padding: 4px 0px 4px 12px;
+	width: 220px;
+}
+
+ul.sb_menu li a, ul.ex_menu li a {
+	color: #5F5F5F;
+	text-decoration: none;
+	margin-left: -12px;
+	padding-left: 12px;
+	background: url(images/menu_link.jpg) no-repeat left center;
+}
+
+ul.sb_menu li a:hover, ul.ex_menu li a:hover, ul.sb_menu li.active a, ul.ex_menu li.active a {
+	color: #D76002;
+	font-weight: bold;
+	background: url(images/menu_hover.jpg) no-repeat left center;
+}
+
+ul.sb_menu li a:hover {
+	text-decoration: underline;
+}
+
+ol {
+	list-style: none;
+}
+
+ol li {
+	display: block;
+	clear: both;
+}
+
+ol li label {
+	display: block;
+	margin: 0px;
+	padding: 16px 0px 0px 0px;
+}
+
+ol li input.text {
+	width: 480px;
+	border: 1px solid #C0C0C0;
+	margin: 2px 0px;
+	padding: 5px 2px;
+	height: 16px;
+	background: #FFFFFF;
+}
+
+ol li textarea {
+	width: 480px;
+	border: 1px solid #c0c0c0;
+	margin: 2px 0px;
+	padding: 2px;
+	background: #FFFFFF;
+}
+
+ol li .send {
+	margin: 16px 0px 0px 0px;
+}
+
+#search span {
+	width: 216px;
+	display: block;
+	background: #FFFFFF;
+	height: 29px;
+	margin: 8px 0px 0px 0px;
+	padding: 0px;
+	border: 1px solid #e9eaea;
+}
+
+#search input #s {
+	float: left;
+	width: 170px;
+	padding: 7px 0 7px 10px;
+	margin: 0px;
+	border: 0px;
+	background: none;
+	color: #909090;
+	font: normal 12px/15px Arial, Helvetica, sans-serif;
+}
+
+#search .btn {
+	float: left;
+	padding: 0px;
+	margin: 0px;
+	border: 0px;
+	width: auto;
+}
+/**Ye Yint Thet Khine(End)**/
+
+/**Michael Pai(Start)**/
+.nav {
+	background: -webkit-linear-gradient(left, #230304, #1A0607, #410608, #1A0607, #230304);
+    background: -o-linear-gradient(left, #230304, #1A0607, #410608, #1A0607, #230304);
+    background: -moz-linear-gradient(left, #230304, #1A0607, #410608, #1A0607, #230304);
+    background: linear-gradient(left, #230304, #1A0607, #410608, #1A0607, #230304);
+	font-family: Consolas, Andale Mono, Lucida Console, Lucida Sans Typewriter, Monaco, Courier New, monospace, Jokerman;
+}
+
+.nav ul {
+    list-style-type: none;
+    margin-top:-4px;
+	width: 75%;
+	padding: 0% 12.5%;
+    overflow: hidden;	
+}
+
+.nav li {
+    float: left;
+}
+
+.nav a {
+    display: block;
+    color: #F36D0C;
+    text-align: center;
+    padding: 20px 30px;
+    text-decoration: none;
+}
+
+ul.nav li a:hover, ul.nav li.current a {
+    color: #FFFFFF;
+}
+
+.footer {
+    width:100%;
+    margin: auto;
+	text-align: center;
+	background: -webkit-linear-gradient(left, #230304, #1A0607, #410608, #1A0607, #230304);
+    background: -o-linear-gradient(left, #230304, #1A0607, #410608, #1A0607, #230304);
+    background: -moz-linear-gradient(left, #230304, #1A0607, #410608, #1A0607, #230304);
+    background: linear-gradient(left, #230304, #1A0607, #410608, #1A0607, #230304);
+	color: #F36D0C;
+}
+
+.footer {
+	color: #959595;
+	background-color: #242424;
+	margin-top: 50px;
+}
+
+.footer_resize {
+	margin: 0px auto;
+	padding: 24px 40px;
+	width: 890px;
+}
+
+.footer a {
+	color: #959595;
+	padding: inherit;
+	text-decoration: underline;
+}
+
+.footer1 {
+    width:100%;
+    margin: auto;
+	text-align: center;
+	background: -webkit-linear-gradient(left, #230304, #1A0607, #410608, #1A0607, #230304);
+    background: -o-linear-gradient(left, #230304, #1A0607, #410608, #1A0607, #230304);
+    background: -moz-linear-gradient(left, #230304, #1A0607, #410608, #1A0607, #230304);
+    background: linear-gradient(left, #230304, #1A0607, #410608, #1A0607, #230304);
+	color: #F36D0C;
+}
+
+.footer1 {
+	color: #959595;
+	background-color: #242424;
+	margin-top: 850px;
+}
+
+.footer1_resize {
+	margin: 0px auto;
+	padding: 24px 40px;
+	width: 890px;
+}
+
+.footer1 a {
+	color: #959595;
+	padding: inherit;
+	text-decoration: underline;
+}
+
+.footer2 {
+    width:100%;
+    margin: auto;
+	text-align: center;
+	background: -webkit-linear-gradient(left, #230304, #1A0607, #410608, #1A0607, #230304);
+    background: -o-linear-gradient(left, #230304, #1A0607, #410608, #1A0607, #230304);
+    background: -moz-linear-gradient(left, #230304, #1A0607, #410608, #1A0607, #230304);
+    background: linear-gradient(left, #230304, #1A0607, #410608, #1A0607, #230304);
+	color: #F36D0C;
+}
+
+.footer2 {
+	color: #959595;
+	background-color: #242424;
+	margin-top: 500px;
+}
+
+.footer2_resize {
+	margin: 0px auto;
+	padding: 24px 40px;
+	width: 890px;
+}
+
+.footer2 a {
+	color: #959595;
+	padding: inherit;
+	text-decoration: underline;
+}
+
+.signupsheet {
+	position:absolute;
+	left:20em;
+	right:1em;
+}
+
+.signupsheet h1 {
+	text-align: center;
+	font-size: 35px;
+}
+
+.signupsheet p {
+	text-align: center;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	font-size: 18px;
+	padding: 10px;
+	color: #FFFFFF;
+}
+
+.signupsheet h2 {
+	text-align: center;
+	font-size: 30px;
+}
+
+.signupsheet table {
+	font-size: 30px;
+}
+
+.signupsheet tbody {
+	color: #FFFFFF;
+}
+
+.clearfix button {
+	background-color: #FFBE00;
+	text-align: center;
+	border-radius: 20px;
+}
+
+.btnstyle button {
+  border-radius: 20px;
+  background-color: #1A0607;
+  border: none;
+  color: #FFF500;
+  text-align: center;
+  font-size: 40px;
+  padding: 25px;
+  width: 500px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5% auto;
+  display: block;
+}
+
+/* Full-width input fields */
+input[type="submit"] {
+	width: 344px;
+	height: 45px;
+	border: none;
+	background-image: none;
+	color: #FF0000;
+	background-color: #FFFD00;
+}
+
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+.signupbutton button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+    padding: 14px 20px;
+    background-color: #F44336;
+}
+
+/* Float cancel and signup buttons and add an equal width */
+.cancelbtn,.signupbtn {float:left;width:50%}
+
+/* Add padding to container elements */
+.container {
+    padding: 16px;
+}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    padding-top: 60px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #FEFEFE;
+    margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button (x) */
+.close {
+    position: absolute;
+    right: 35px;
+    top: 15px;
+    color: #FFFFFF;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #FF0004;
+    cursor: pointer;
+}
+
+/* Clear floats */
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 300px) {
+    .cancelbtn, .signupbtn {
+       width: 100%;
+    }
+}
+
+.signupbtn {
+	padding: 20px;
+}

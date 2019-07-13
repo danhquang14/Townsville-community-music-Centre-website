@@ -1,0 +1,118 @@
+﻿<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Townville Community Music Center</title>
+<link href="style.css" rel="stylesheet" type="text/css">
+<link href="javascript.json" type="text/javascript">
+</head>
+
+<body>
+<div id="fixed_header">
+    <div class="banner">
+    	<img src="images/TCMCbanner.jpg">
+    </div>
+    
+  	<div class="logo">
+   	    <a href="index.html" target="_top"><img src="images/logo.png" width="120"></a>
+    </div>
+       
+</div>
+
+<div class ="nav">
+    <ul class="nav">
+		<li><a href="index.html">Home</a></li>
+        <li><a href="aboutus.html">About Us</a></li>
+		<li><a href="artist.html">Musos</a></li>
+        <li class="current"><a href="signup.html">Sign Up</a></li>
+		<li><a href="sponsors.html">Sponsor</a></li>
+		<li><a href="history.html">History</a></li>
+    </ul>
+</div>
+
+<div class="sidebar">
+  	<div class="gadget">
+		<h2 class="star"><span>Townsville Community</span> Music Centre</h2>
+        	<ul class="sb_menu">
+            	<li><a href="index.html">Home</a></li>
+            	<li><a href="aboutus.html">About us</a></li>
+				<li><a href="artist.html">Musos</a></li>
+            	<li class="active"><a href="signup.html">Sign up</a></li>
+            	<li><a href="sponsors.html">Sponsor</a></li>
+            	<li><a href="history.html">History</a></li>
+    		</ul>
+  	</div>
+  
+  	<div class="gadget">
+      	<h2 class="star"><span>Sponsors</span></h2>
+         	<ul class="ex_menu">
+            	<li><a href="http://www.townsvillecitycouncil.com">Townsville City Council</a></li>
+				<li><a href="http://www.queensland.gov.au">Queensland Government</a></li>
+         	</ul>
+  	</div>
+</div>
+
+<div class="signupsheet">
+	<h1>Membership Sign Up</h1>
+	<p>You can support the <strong>Music Centre</strong> by becoming a Member and derive some benefits for yourself at the same time.
+	<br>
+	Your <strong>Subscription</strong> helps to keep us operating and we provide substantial discounts whenever possible.<br>
+	For the <strong>Music Centre's</strong> own events, Members' ticket discounts can be as high as 50%!
+	<br>
+	The <strong>Music Centre</strong> is also registered as a <strong>Deductible Gift Recipient</strong>. Any extra donations are tax-deductible!</p>
+	
+	<h2>Membership Form</h2>
+	<div class="btnstyle">
+		<button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Sign Up</button>
+	</div>
+
+	<div id="id01" class="modal">
+  		<span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">x</span>
+  			<form class="modal-content animate" action="welcome.html">
+    			<div class="container">
+     				<label><strong>Date*</strong></label>
+     				<br>
+    				<input type="date" placeholder="date" name="date" required>
+    				<br>
+    				<br>
+    			
+    				<label><strong>First Name*</strong></label>
+    				<input type="text" placeholder="First Name" name="First Name" required>
+
+    				<label><strong>Surname*</strong></label>
+    				<input type="text" placeholder="Surname" name="Surname" required>
+
+    				<label><strong>Postal Address*</strong></label>
+    				<input type="text" placeholder="Postal Address" name="Postal Address" required><br>
+							
+					<label><strong>Phone Number*</strong></label><br>
+   					<input type="number" placeholder="Working Hours" name="Phone Day" required><br><br>
+   				
+					<label><strong>Phone Number*</strong></label><br>
+   					<input type="number" placeholder="After Hours" name="After hours" required><br><br>
+   				
+					<label><strong>Mobile*</strong></label><br>
+   					<input type="number" placeholder="Mobile" name="Mobile" required><br>
+					<br>
+				
+					<label><strong>Email*</strong></label>
+    				<input type="text" placeholder="Email" name="email" required>
+    			
+					<label><strong>We Value Your Comments and Suggestions*</strong></label>
+    				<input type="text" placeholder="Comments" name="Comments" required>
+      
+       				<div class="clearfix">
+        				<button type="submit" class="signupbtn">Sign Up</button>
+      				</div>
+    			</div>
+  			</form>
+	</div>
+</div>
+
+<div class="footer2">
+ 	<div class="footer2_resize">
+  		<p>© Townsville Community Music Centre | <a href="mailto:admin@townsvillemusic.org.au">Email us with your query</a> | <a href="#" target="Top">To Top</a></p>
+  	</div>
+</div>
+</body>
+</html>
